@@ -1,0 +1,72 @@
+.hide{
+  display:none;
+}
+button{
+  padding:10px;
+  border-radius: 30px;
+  border:1px solid black;
+  
+}
+.container{
+  width:400px; 
+  margin:30px 30px;
+}
+.cont-tit{
+  font-size:32px;
+  font-weight: 700;
+}
+.product{
+  margin-top:30px;
+  border:1px solid black;
+  border-radius: 30px;
+  padding:20px;
+}
+.product .btn-out{
+ width:50%
+}
+.input_container{
+  margin-top:40px;
+}
+.input_container label{
+  display:block;
+  margin-bottom:20px;
+}
+.input_container input{
+  padding:5px; 
+}
+.product_display{
+  margin-top:30px;
+}
+.product_display ul li{
+  margin-bottom:30px;
+  padding-bottom:20px;
+  border-bottom: 1px solid black;
+}
+.product_display ul .productName{
+  font-weight: 900;
+  display:block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.product_display ul p{
+  margin-bottom:10px;
+}
+.editModal{
+  position:fixed;
+  width:30%;
+  border-radius: 10%;
+  background-color: aliceblue;
+  padding:20px;
+  margin:0 auto;
+  text-align: center;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.editModal label{
+  display:block;
+  margin-bottom:20px;
+}
+.editModal input{
+  padding:5px;
+}

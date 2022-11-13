@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>상품등록페이지</title>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="cont-tit">상품 등록 페이지</h1>
+      <article class="product">
+        <button class="btn-out">상품불러오기</button>
+        <div class="input_container">
+          <label
+            >상품이름 :
+            <input class="inp-name" type="text" />
+          </label>
+          <label
+            >상품가격 :
+            <input class="inp-price" type="text" />
+          </label>
+          <label
+            >상품등록날짜 :
+            <input class="inp-date" type="date" />
+          </label>
+          <label
+            >재고 :
+            <input class="inp-stock" type="text" />
+          </label>
+          <button type="button" class="btn_input">상품등록</button>
+        </div>
+      </article>
+      <section class="product_display">
+        <h2 class="displayName hide">상품 목록</h2>
+      </section>
+      <article class="editModal hide">
+        <h2 class="hide">수정 모달창</h2>
+        <label
+          >상품이름
+          <input class="inp-name" type="text" />
+        </label>
+        <label
+          >상품가격
+          <input class="inp-price" type="text" />
+        </label>
+        <label
+          >상품등록날짜
+          <input class="inp-date" type="date" />
+        </label>
+        <label
+          >재고
+          <input class="inp-stock" type="text" />
+        </label>
+        <button type="button" class="btn_edit">상품수정</button>
+        <button type="button" class="btn_delete">상품삭제</button>
+      </article>
+    </div>
+    <script src="./src/js/myscript.js"></script>
+  </body>
+</html>
